@@ -21,6 +21,13 @@ function HomeBody({ rf }) {
         />
       </div>
 
+      <h6 className='registration-attention'>
+        Внимание!
+        Началась регистрация на III Moot Court Kazakhstan for High School, который состоится 27 апреля 2024 года.
+        Регистрация команд-участников до 20 апреля 2024 г. (23:59 по казахстанскому времени).
+      </h6>
+
+
       <h4>{t("whats-mootcourt")}</h4>
       <div>
         <p>{t("whats-mootcourt-p1")}</p>
