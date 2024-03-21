@@ -1,0 +1,90 @@
+.reg {
+  padding-top: 130px;
+  padding-bottom: 40px !important;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.reg h3 {
+  color: #1d64b6;
+  padding-bottom: 50px;
+}
+
+.reg-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.reg-form > input {
+  width: 70%;
+  height: 50px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #113156;
+  font-size: 1.5rem;
+  color: #113156;
+  margin: 20px;
+}
+
+.checkbox-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+.checkbox-p {
+  font-size: 0.9rem;
+  padding: 20px;
+  width: 70%;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+}
+
+.form-btn {
+  margin-top: 70px;
+  width: 300px;
+  height: 60px;
+  border: none;
+  background-color: #f9bf1c;
+  border-radius: 7px;
+  pointer-events: none;
+}
+
+.invisible-padding {
+  padding: 15px;
+}
+
+.reg {
+  padding-bottom: 200px;
+  padding-top: 130px;
+}
+
+.feedback-text {
+  padding-top: 60px;
+}
+
+#success-text {
+  color: rgb(44, 156, 0);
+}
+
+#error-text {
+  color: rgb(185, 14, 14);
+}
+
+@media only screen and (max-width: 700px) {
+  .reg-form > input {
+    width: 90%;
+    height: 30px;
+    font-size: 1.1rem;
+  }
+}

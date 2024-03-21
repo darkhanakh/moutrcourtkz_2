@@ -1,0 +1,18 @@
+.archive_container {
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.archive_container-link {
+  text-decoration: none;
+  margin-right: 15px;
+  border: 1px solid #113156;
+  padding: 10px 20px;
+}
+
+.active {
+  background-color: #113156;
+  color: white;
+}

@@ -1,0 +1,93 @@
+.homebody-container {
+  padding-top: 150px;
+  padding-right: 15%;
+  padding-left: 10%;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.sponsor-container {
+  padding-bottom: 130px;
+  align-self: center;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sponsor-img {
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+}
+
+#nis {
+  width: 240px;
+  height: auto;
+}
+
+#girlup {
+  border-radius: 50%;
+}
+
+.homebody-container h4 {
+  padding-bottom: 60px;
+}
+
+.homebody-container h5 {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  align-self: center;
+}
+
+#homeImg1 {
+  padding-top: 90px;
+  padding-bottom: 190px;
+  width: 50%;
+  align-self: center;
+}
+
+.homebody-container p {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.contest-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  justify-content: center;
+}
+
+.contest-card-container p {
+  width: 310px;
+  padding: 40px;
+}
+
+.registration-attention {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 30px;
+  background-color: yellow;
+}
+
+@media only screen and (max-width: 700px) {
+  #homeImg1 {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .sponsor-container {
+    flex-direction: column;
+  }
+  .sponsor-img {
+    width: 170px;
+    height: 170px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}

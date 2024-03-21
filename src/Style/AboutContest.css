@@ -1,0 +1,54 @@
+.aboutcontest {
+  padding-top: 120px;
+  padding-right: 15%;
+  padding-left: 10%;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.aboutcontest p {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.aboutcontest h5 {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.aboutcontest h4 {
+  padding-bottom: 50px;
+}
+
+.about-ideas-container {
+  padding-bottom: 30px;
+}
+
+.about-ideas-container p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.file-link-container {
+  margin-top: 90px;
+  margin-bottom: 90px;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.file-link {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.file-link:visited {
+  color: rgb(55, 55, 255);
+}
+
+.file-link:hover {
+  color: rgb(32, 32, 212);
+}
